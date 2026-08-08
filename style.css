@@ -128,9 +128,55 @@ h1{
 /* Phone Responsive.... */
 
 
-/* @media (max-width:600px){
+@media (max-width:600px){
     h1{
-        font-size:9vmin;
+        font-size:10vmin;
         margin-top:1rem;
     }
-} */
+    .container{
+        min-height:60vh;
+        margin-top:1rem;
+
+    }
+    .game{
+        width:90vmin;
+        height:90vmin;
+        gap:2vmin;
+    }
+    .box{
+        width:27vmin;
+        height:27vmin;
+        font-size:18vmin;
+        border-radius:2vmin;
+    }
+    #reset-btn{
+        width:9rem;
+        height:3rem;
+        font-size:1.75rem;
+
+    }
+
+    .msg-container{
+        min-height:100vh;
+        padding:1rem;
+        gap:1.5rem;
+    }
+
+    #msg{
+        font-size:12vmin;
+        text-align:center;
+
+
+    }
+
+    .emoji{
+        font-size:15vmin;
+
+    }
+    #new-game{
+        width:9rem;
+        height:3rem;
+        font-size:1.2rem;
+        border-radius:0.5rem;
+    }
+}
