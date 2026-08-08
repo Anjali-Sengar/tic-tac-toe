@@ -5,7 +5,7 @@
 
 body{
     
-    color:black;
+    /* color:white; */
     background: radial-gradient(circle, blue,rgb(132, 30, 30));
  
 
@@ -19,8 +19,8 @@ h1{
     text-align: center;
     font-size:60px;
    
-       color:black;
-    /* text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; */
+       color:white;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
 
 }
 
