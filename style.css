@@ -150,7 +150,8 @@ h1{
         width:27vmin;
         height:27vmin;
         font-size:18vmin;
-        border-radius:1vmin;
+        border-radius:0.5vmin;
+        border-radius: 3vmin;
     }
     #reset-btn{
         width:9rem;
