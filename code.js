@@ -42,10 +42,11 @@ boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(turnO){
       box.innerText="O";
-        box.style.color="cyan"; 
+        // box.style.color=" #8dbfc0";
+         box.style.color=" cyan";
       turnO=false;
     
-      box.style.textShadow=" 0 0 10px cyan,0 0 30px cyan";
+      box.style.textShadow=" 0 0 10px blue,0 0 30px blue";
     }
     
     else{

@@ -4,8 +4,10 @@
 }
 
 body{
-    
-    background: radial-gradient(circle, blue,rgb(132, 30, 30));
+    min-height:100vh;
+    background-color:#548687;
+    /* background-color:#8dbfc0; */
+     
 }
  
 
@@ -16,7 +18,7 @@ h1{
     text-align: center;
     font-size:8vmin;
     color:black;
-    text-shadow: 0 0 10px blue, 0 0 20px brown;
+    text-shadow: 0 0 10px cyan,0 0 20px cyan ;
 
 }
 
@@ -48,9 +50,9 @@ h1{
 .box{
      height:18vmin;
     width:18vmin;
-    background-color: rgb(50, 19, 112);
-    border:3px solid antiquewhite;
-    box-shadow:0 0 60px rgb(220, 30, 140);
+    background-color: bisque;;
+    border:3px solid rgb(223, 161, 79);
+    box-shadow:0 0 60px wheat;
     border-radius: 2vmin;
     font-size:15vmin;
     text-align: center;
@@ -85,6 +87,7 @@ h1{
     justify-content: center;
     align-items: center;
    gap:2rem;
+    background-color:bisque;
    
 }
 
@@ -92,8 +95,8 @@ h1{
 
 #msg{
     font-size:12vmin;
- 
-    color:#ffffff;
+   
+    color:black;
     text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
 }
 
@@ -147,7 +150,7 @@ h1{
         width:27vmin;
         height:27vmin;
         font-size:18vmin;
-        border-radius:2vmin;
+        border-radius:1vmin;
     }
     #reset-btn{
         width:9rem;
