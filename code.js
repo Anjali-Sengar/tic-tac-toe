@@ -42,7 +42,7 @@ boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(turnO){
       box.innerText="O";
-      box.style.color=" navy blue";
+      box.style.color="navy";
       turnO=false;
     
       box.style.textShadow=" 0 0 10px cyan ,0 0 30px cyan";
@@ -51,8 +51,8 @@ boxes.forEach((box)=>{
     else{
      box.innerText="X";
     turnO=true;
-     box.style.color="pink";
-     box.style.textShadow=" 0 0 10px red,0 0 40px red";
+     box.style.color="red";
+     box.style.textShadow=" 0 0 10px cyan,0 0 40px red";
     }
      
     count++;
